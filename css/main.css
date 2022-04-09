@@ -54,6 +54,19 @@ a {
   color: initial;
 }
 
+<<<<<<< HEAD
+=======
+*:focus {
+  outline: none;
+}
+
+@media (hover) {
+  *:focus {
+    outline: 5px dotted #32323f;
+  }
+}
+
+>>>>>>> 99247e64873ceaee0ba42224f8e9836cbf09af40
 ul {
   list-style: none;
 }
@@ -81,12 +94,12 @@ header .container .link {
   border-radius: 3px;
   border: 1px solid var(--clr-dark-blue);
   padding: 15px;
-  transform: scalex(1);
+  transform: initial;
   transition: box-shadow 0.5s, transform 0.5s;
 }
 
 header .container .link:hover {
-  transform: scalex(1.1);
+  transform: scalex(1.05);
   box-shadow: 0 3px 2px 0px var(--clr-dark-blue);
 }
 
@@ -136,8 +149,8 @@ header .container .link:hover {
 .landing .text-content h1 {
   color: var(--clr-dark-blue);
   font-weight: normal;
-  font-size: 2.2rem;
-  width: 345px;
+  font-size: 2rem;
+  width: 330px;
   max-width: 100%;
 }
 
@@ -194,11 +207,12 @@ header .container .link:hover {
   padding: 15px 25px;
   border-radius: 4px;
   font-size: 17px;
+  transform: initial;
   transition: box-shadow 0.5s, transform 0.5s, background 0.5s, color 0.5s;
 }
 
 .landing .text-content a:hover {
-  transform: scalex(1.1);
+  transform: scalex(1.05);
   box-shadow: 0 3px 2px 0px var(--clr-dark-blue);
   background-position: right bottom;
   color: var(--clr-dark-blue);
