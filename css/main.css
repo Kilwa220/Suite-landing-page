@@ -140,8 +140,8 @@ header .container .link:hover {
 .landing .text-content h1 {
   color: var(--clr-dark-blue);
   font-weight: normal;
-  font-size: 2.2rem;
-  width: 345px;
+font-size: 2rem;
+width: 315px;
   max-width: 100%;
 }
 
